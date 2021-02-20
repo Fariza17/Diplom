@@ -75,8 +75,12 @@ WSGI_APPLICATION = 'DocApp.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'keeiynnl',
+        'HOST' : 'dumbo.db.elephantsql.com',
+        'USER' : 'keeiynnl',
+        'PASSWORD' : 'UDyp15hCiDMTr3LtG--sRWMVTKgsWLtO',
+        'PORT': '5432'
     }
 }
 
